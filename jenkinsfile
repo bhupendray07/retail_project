@@ -1,4 +1,4 @@
-// This is jenkins configuration file
+// This is jenkins configuration file for cicd
 pipeline {
     any agent
 

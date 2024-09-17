@@ -1,0 +1,27 @@
+// This is jenkins configuration file
+pipeline {
+    any agent
+
+    stages {
+        stage('Build') {
+            steps{
+                echo "build completed successful"
+            }
+        }
+                stage('Test') {
+            steps{
+                echo "Test completed successful"
+            }
+        }
+                stage('Package') {
+            steps{
+                echo "packaging completed successful"
+            }
+        }
+        stage('Deploy') {
+            steps{
+                echo "Deployment completed successful"
+            }
+        }
+    }
+}
